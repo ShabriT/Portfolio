@@ -1,0 +1,142 @@
+*
+{
+margin: 0;
+padding: 0;
+}
+
+.container {
+    width:100%;
+    background-image: url(../../assets/img/bg2.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+.navbar {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 2px 2px 12px rgba(0,0,0, 0.2);
+    height : 80px;
+}
+
+.navbar ul {
+margin-top: 2%;
+margin-left: 40%;
+} 
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+.navbar ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color:rgb(56, 74, 241);
+    margin-top: 3%;
+    transition: .4s ease;
+} 
+
+ .navbar ul li a:hover {
+    color:  rgb(43, 30, 30);
+}
+
+.info {
+    margin-left: 8%;
+    margin-top: 10%;
+}
+
+.info h1 {
+    font-size: 65px;
+    color: rgb(43,30,30);
+}
+
+.info h2 {
+    font-size: 35px;
+    color: rgb(43,30,30);
+}
+
+
+.info span {
+    color:rgb(56, 74, 241);
+}
+
+.info p {
+    font-size: 20px;
+    color: rgb(43,30,30);
+    letter-spacing: 1px;
+  margin-top: 10px;
+}
+
+.container2 {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    min-height: 150px;
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.container2 .left-side {
+    position: relative;
+    padding: 40px;
+    
+}
+
+.container2 .left-side ul {
+    margin-top: 2%;
+    margin-left: 2%;
+} 
+    
+.container2 .left-side ul li {
+    list-style: none;
+    padding: 10px 16px;
+   
+}
+
+
+
+.container2 .right-side {
+    position: relative;
+    padding: 40px;
+    
+}
+
+    
+.container2 .right-side ul {
+    margin-top: 4%;
+    margin-left: 2%;
+} 
+        
+.container2 .right-side ul li {
+    list-style: none;
+    padding: 10px 16px;
+    
+}
+
+.image {
+    width: 20%;
+    height: 30%;
+    position: absolute;
+    right: 100px;
+    bottom: 250px;
+}
+
+.image  img {
+    position: absolute;
+    height: 120%;
+    left:40%;
+    transform: translate(-55%);
+    bottom: 0;
+    border-radius: 40%;
+    transition: left 2s ease;
+}
+
+

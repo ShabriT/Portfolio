@@ -1,0 +1,112 @@
+*
+{
+margin: 0;
+padding: 0;
+}
+
+.container {
+    width:100%;
+    background-image: url(../../assets/img/bg2.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+
+.navbar {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 2px 2px 12px rgba(0,0,0, 0.2);
+    height : 80px;
+}
+
+.navbar ul {
+margin-top: 2%;
+margin-left: 40%;
+} 
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+.navbar ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(56,74,241);
+    margin-top: 3%;
+    transition: .4s ease;
+} 
+
+ .navbar ul li a:hover {
+    color:  rgb(43, 30, 30);
+}
+
+.info {
+    margin-left: 7%;
+    margin-top: 10%;
+}
+
+.info h1 {
+    font-size: 65px;
+    color: rgb(43,30,30);
+}
+
+.info h3 {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.info span {
+    color:rgb(56, 74, 241)
+}
+
+.about-skills .box {
+    position: relative;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-skills .title2 {
+    color: rgb(43,30,30);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .about-skills .box h4 {
+    text-transform: uppercase;
+    color: rgb(43,30,30);
+    font-weight: 600;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .about-skills .box .percent {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #f0f0f0;
+  }
+  
+  .about-skills .box .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgb(56, 74, 241);
+   /* color:rgb(56, 74, 241);
+    background: #18455a;*/
+  }

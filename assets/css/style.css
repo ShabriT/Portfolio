@@ -1,0 +1,132 @@
+*
+{
+margin: 0;
+padding: 0;
+}
+
+.container {
+    width:100%;
+    /*background: #aaadb4; */
+    background-image: url(../../assets/img/bg2.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+/*.logo {
+    color: blue;
+    font-family: 'Muli', sans-serif;
+    font-weight: 100px;
+    text-transform:uppercase;
+    font-size:12px;
+    line-height: 1.5em;
+    text-decoration: none;
+    box-shadow: 4px 4px 12px rgba(0,0,0, 1);
+     border-radius:40%;
+} */
+
+.navbar {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 2px 2px 12px rgba(0,0,0, 0.2);
+    height : 80px;
+}
+
+.navbar ul {
+margin-top: 2%;
+margin-left: 40%;
+} 
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+.navbar ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(56,74,241);
+    margin-top: 3%;
+    transition: .4s ease;
+} 
+
+ .navbar ul li a:hover {
+    color:  rgb(43, 30, 30);
+}
+
+.info {
+    margin-left: 7%;
+    margin-top: 17%;
+}
+
+.info h1 {
+    font-size: 65px;
+    color: rgb(43,30,30);
+}
+
+.info h3 {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.info span {
+    color:rgb(56, 74, 241)
+}
+
+.contactInfo ul {
+    position: relative;
+    margin-left: 10%;
+    margin-top: 5%;
+    }
+    
+    .contactInfo ul li {
+      position: relative;
+      list-style: none;
+      display: inline-block;
+      margin: 20px 0;
+      cursor: pointer;
+    }
+    
+    .contactInfo ul li .icon {
+      display: inline-block;
+      width: 70px;
+      font-size: 40px;
+      color: rgb(43,30,30);
+      transition: .4s ease;
+    }
+    
+    .contactInfo ul li .icon:hover {
+        color:rgb(56, 74, 241);
+    }
+
+.image {
+    width: 20%;
+    height: 30%;
+    position: absolute;
+    right: 100px;
+    bottom: 170px;
+}
+
+.image  img {
+    position: absolute;
+    height: 140%;
+    left:40%;
+    transform: translate(-55%);
+    bottom: 0;
+    border-radius: 40%;
+    transition: left 2s ease;
+}
+
+.image:hover  .me {
+    left: 55%;
+    
+}
